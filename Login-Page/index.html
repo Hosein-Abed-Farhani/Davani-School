@@ -1,0 +1,79 @@
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="container">
+            <div class="right">
+                <div class="bl-head">
+                    <span id="sign-span">حساب ندارید ؟</span>
+                    <a id="sign-a" onclick="log_1()">ثبت نام</a>
+                </div>
+                <div class="box-login">
+                    <div class="bl-top">
+                        <h1 id="h1">خوش آمدید!</h1>
+                        <p> لطفا مشخصات خود را وارد کنید</p>
+                    </div>
+                    <div class="bl-center">
+                        <input type="text" name="user_name" id="user_name" placeholder="نام کاربری">
+                        <input type="password" name="user_pass" id="user_pass" placeholder="گذرواژه">
+                        <a id="repass" href="">بازیابی گذرواژه</a>
+                        <button id="login-btn">ورود</button>
+                    </div>
+                    <div class="hrs">
+                        <hr>
+                        یا
+                        <hr>
+                    </div>
+                    <div class="bl-bottom">
+                        <a href="" class="google-sign">
+                            <img src="image/google.png" alt="google">
+                            <p>ورود با حساب گوگل</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-2">
+                <div class="bl-head">
+                    <span id="sign-span-2">حساب دارید ؟</span>
+                    <a id="sign-a" onclick="log_2()">ورود</a>
+                </div>
+                <div class="box-login">
+                    <div class="bl-top">
+                        <h1 id="h1">خوش آمدید!</h1>
+                        <p> لطفا مشخصات خود را وارد کنید</p>
+                    </div>
+                    <div class="bl-center">
+                        <input type="text" name="user_name" id="user_name" placeholder="نام کاربری">
+                        <input type="password" name="user_pass" id="user_pass" placeholder="گذرواژه">
+                        <input type="password" name="user_pass" id="user_pass" placeholder="تکرار گذرواژه">
+                        <button id="login-btn">ورود</button>
+                    </div>
+                    <div class="hrs">
+                        <hr>
+                        یا
+                        <hr>
+                    </div>
+                    <div class="bl-bottom">
+                        <a href="" class="google-sign">
+                            <img src="image/google.png" alt="google">
+                            <p>ورود با حساب گوگل</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="left"></div>
+        </div>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
