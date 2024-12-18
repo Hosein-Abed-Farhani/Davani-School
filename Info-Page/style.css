@@ -125,7 +125,7 @@ nav {
 }
 
 #login-btn:hover {
-  box-shadow: 0 2px 2px 0 rgb(70, 199, 99), 0 2px 20px 0 rgb(70, 199, 99);
+  box-shadow: 0px 0px 2px 0 rgb(70, 199, 99), 0px 0px 20px 0 rgb(70, 199, 99);
 }
 
 #login-p {
