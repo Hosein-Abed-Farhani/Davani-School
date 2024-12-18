@@ -63,7 +63,6 @@ nav {
 #logo {
   width: 55px;
   margin-left: 10px;
-  border-radius: 50%;
 }
 
 .header-center {
@@ -243,7 +242,6 @@ footer {
 
 #footer-icon {
   width: 100px;
-  border-radius: 50%;
 }
 
 #ft-p-1,
