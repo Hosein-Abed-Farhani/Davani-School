@@ -178,12 +178,12 @@ hr {
   padding-left: 20px;
   border: 1px dashed green;
   border-radius: 4px;
-  background: rgba(1, 255, 1, 0.229);
+  background: rgba(1, 255, 1, 0.15);
   transition: 300ms ease-out;
 }
 
 .google-sign:hover {
-  background: rgba(1, 255, 1, 0.35);
+  background: rgba(1, 255, 1, 0.25);
 }
 
 .bl-bottom img {
