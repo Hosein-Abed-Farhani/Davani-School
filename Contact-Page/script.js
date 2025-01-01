@@ -1,13 +1,8 @@
-// loading
+//scroll bar
 
-function loaded() {
-  document.querySelector(".load-body").style.display = "none";
-  document.querySelector(".body").style.display = "block";
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  loaded();
-});
+window.onscroll = function () {
+  scroll();
+};
 
 function scroll() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

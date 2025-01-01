@@ -1,14 +1,3 @@
-// loading
-
-function loaded() {
-  document.querySelector(".load-body").style.display = "none";
-  document.querySelector(".body").style.display = "block";
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  loaded();
-});
-
 //scroll bar
 
 window.onscroll = function () {

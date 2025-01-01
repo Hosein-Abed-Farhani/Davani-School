@@ -18,12 +18,6 @@ body {
   transition: 300ms ease-out;
 }
 
-
-@keyframes loading {
-  to {
-    rotate: 360deg;
-  }
-}
 a {
   text-decoration: none;
   color: #000;
@@ -168,7 +162,7 @@ nav {
   position: sticky;
   top: 0px;
   transition: 300ms ease-out;
-  z-index: +5;
+  z-index: +2;
 }
 
 .slider {
@@ -460,12 +454,6 @@ footer hr {
 /* responsive code */
 
 @media screen and (max-width: 1000px) {
-  #load-circ {
-    border: 13px solid rgb(220, 220, 220);
-    border-top: 13px solid #43a047;
-    width: 50px;
-    height: 50px;
-  }
   .header-center {
     display: none;
   }
