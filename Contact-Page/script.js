@@ -5,7 +5,9 @@ function loaded() {
   document.querySelector(".body").style.display = "block";
 }
 
-onload = loaded();
+document.addEventListener("DOMContentLoaded", function () {
+  loaded();
+});
 
 function scroll() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;

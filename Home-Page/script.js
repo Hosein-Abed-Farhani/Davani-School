@@ -1,11 +1,4 @@
-// loading
 
-function loaded() {
-  document.querySelector(".load-body").style.display = "none";
-  document.querySelector(".body").style.display = "block";
-}
-
-onload = loaded();
 
 //scroll bar
 
