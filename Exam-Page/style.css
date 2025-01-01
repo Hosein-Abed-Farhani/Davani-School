@@ -370,6 +370,12 @@ footer hr {
 
 /* responsive code */
 @media screen and (max-width: 1000px) {
+  #load-circ {
+    border: 13px solid rgb(220, 220, 220);
+    border-top: 13px solid #43a047;
+    width: 50px;
+    height: 50px;
+  }
   .header-center {
     display: none;
   }

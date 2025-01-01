@@ -7,12 +7,6 @@ function loaded() {
 
 onload = loaded();
 
-//scroll bar
-
-window.onscroll = function () {
-  scroll();
-};
-
 function scroll() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height =
