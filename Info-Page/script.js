@@ -19,13 +19,69 @@ function scroll() {
   } else {
     document.querySelector(".float-btn").style.translate = "100px";
   }
-  console.log("Scroll Height:", document.documentElement.scrollHeight);
-  console.log("Client Height:", document.documentElement.clientHeight);
-  console.log(
-    "Height Difference:",
-    document.documentElement.scrollHeight -
-      document.documentElement.clientHeight
-  );
+
+  console.log(winScroll);
+
+  // box anim
+
+  // for laptop
+  if (900 < document.body.clientWidth) {
+    if (winScroll >= 380) {
+      document.querySelector("#info-boxes-1").style.translate = "0px";
+      document.querySelector("#info-boxes-2").style.translate = "0px";
+    }
+    if (winScroll >= 520) {
+      document.querySelector("#info-boxes-3").style.translate = "0px";
+      document.querySelector("#info-boxes-4").style.translate = "0px";
+    }
+  }
+  // for tablet
+  if (555 < document.body.clientWidth < 900) {
+    if (winScroll >= 255) {
+      document.querySelector("#info-boxes-1").style.translate = "0px";
+    }
+    if (winScroll >= 555) {
+      document.querySelector("#info-boxes-2").style.translate = "0px";
+    }
+    if (winScroll >= 850) {
+      document.querySelector("#info-boxes-3").style.translate = "0px";
+    }
+    if (winScroll >= 1150) {
+      document.querySelector("#info-boxes-4").style.translate = "0px";
+    }
+  }
+
+  // for mobile
+  if (document.body.clientWidth < 555) {
+    if (winScroll >= 100) {
+      document.querySelector("#info-boxes-1").style.translate = "0px";
+    }
+    if (winScroll >= 400) {
+      document.querySelector("#info-boxes-2").style.translate = "0px";
+    }
+    if (winScroll >= 700) {
+      document.querySelector("#info-boxes-3").style.translate = "0px";
+    }
+    if (winScroll >= 1000) {
+      document.querySelector("#info-boxes-4").style.translate = "0px";
+    }
+  }
+}
+
+// for mini mobile
+if (document.body.clientWidth < 500) {
+  // if (scrolled >= 9) {
+  //   document.querySelector("#info-boxes-1").style.translate = "0px";
+  // }
+  // if (scrolled >= 19) {
+  //   document.querySelector("#info-boxes-2").style.translate = "0px";
+  // }
+  // if (scrolled >= 29) {
+  //   document.querySelector("#info-boxes-3").style.translate = "0px";
+  // }
+  // if (scrolled >= 39) {
+  //   document.querySelector("#info-boxes-4").style.translate = "0px";
+  // }
 }
 
 // GoToTop
