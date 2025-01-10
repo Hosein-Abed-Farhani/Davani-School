@@ -26,27 +26,27 @@ function scroll() {
 
   // for laptop
   if (900 < document.body.clientWidth) {
-    if (winScroll >= 380) {
+    if (winScroll >= 480) {
       document.querySelector("#info-boxes-1").style.translate = "0px";
       document.querySelector("#info-boxes-2").style.translate = "0px";
     }
-    if (winScroll >= 520) {
+    if (winScroll >= 550) {
       document.querySelector("#info-boxes-3").style.translate = "0px";
       document.querySelector("#info-boxes-4").style.translate = "0px";
     }
   }
   // for tablet
   if (555 < document.body.clientWidth < 900) {
-    if (winScroll >= 255) {
+    if (winScroll >= 285) {
       document.querySelector("#info-boxes-1").style.translate = "0px";
     }
-    if (winScroll >= 555) {
+    if (winScroll >= 585) {
       document.querySelector("#info-boxes-2").style.translate = "0px";
     }
-    if (winScroll >= 850) {
+    if (winScroll >= 880) {
       document.querySelector("#info-boxes-3").style.translate = "0px";
     }
-    if (winScroll >= 1150) {
+    if (winScroll >= 1180) {
       document.querySelector("#info-boxes-4").style.translate = "0px";
     }
   }
