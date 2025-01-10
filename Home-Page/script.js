@@ -12,6 +12,9 @@ function scroll() {
   var height = document.body.scrollHeight - document.body.clientHeight; // استفاده از document.body
   var scrolled = (winScroll / height) * 100;
   scrolled = Math.min(100, Math.max(0, scrolled)); // محدود کردن مقدار بین ۰ و ۱۰۰
+  if (scrolled >= 95) {
+    scrolled = 100;
+  }
   document.querySelector(".scroll-bar").style.width = scrolled + "%";
   // float btn for scroll to top
   if (scrolled >= 5) {

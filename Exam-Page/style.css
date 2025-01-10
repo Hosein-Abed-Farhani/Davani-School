@@ -19,7 +19,7 @@ body {
   min-width: 375px;
   width: 100%;
   display: flex;
-  flex-flow: column;;
+  flex-flow: column;
 }
 
 a {
