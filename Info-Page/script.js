@@ -1,4 +1,3 @@
-
 //scroll bar
 
 window.onscroll = function () {
@@ -40,3 +39,5 @@ function arrow_off() {
 }
 
 setInterval(arrow, 3000);
+
+// content js
