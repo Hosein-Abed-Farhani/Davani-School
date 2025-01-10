@@ -18,21 +18,11 @@ body {
   transition: 300ms ease-out;
 }
 
-
-@keyframes loading {
-  to {
-    rotate: 360deg;
-  }
-}
 a {
   text-decoration: none;
   color: #000;
 }
 
-#top {
-  position: absolute;
-  top: -5;
-}
 
 /* header */
 header {
@@ -186,7 +176,6 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 
 .images {

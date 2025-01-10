@@ -5,11 +5,13 @@ window.onscroll = function () {
 };
 
 function scroll() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height =
-    document.documentElement.scrollHeight -
-    document.documentElement.clientHeight;
+  var winScroll =
+    window.scrollY ||
+    document.documentElement.scrollTop ||
+    document.body.scrollTop;
+  var height = document.body.scrollHeight - document.body.clientHeight; // استفاده از document.body
   var scrolled = (winScroll / height) * 100;
+  scrolled = Math.min(100, Math.max(0, scrolled)); // محدود کردن مقدار بین ۰ و ۱۰۰
   document.querySelector(".scroll-bar").style.width = scrolled + "%";
   // float btn for scroll to top
   if (scrolled >= 5) {
@@ -17,6 +19,13 @@ function scroll() {
   } else {
     document.querySelector(".float-btn").style.translate = "100px";
   }
+  console.log("Scroll Height:", document.documentElement.scrollHeight);
+  console.log("Client Height:", document.documentElement.clientHeight);
+  console.log(
+    "Height Difference:",
+    document.documentElement.scrollHeight -
+      document.documentElement.clientHeight
+  );
 }
 
 // GoToTop
