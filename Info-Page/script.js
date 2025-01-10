@@ -53,35 +53,19 @@ function scroll() {
 
   // for mobile
   if (document.body.clientWidth < 555) {
-    if (winScroll >= 100) {
+    if (winScroll >= 50) {
       document.querySelector("#info-boxes-1").style.translate = "0px";
     }
-    if (winScroll >= 400) {
+    if (winScroll >= 350) {
       document.querySelector("#info-boxes-2").style.translate = "0px";
     }
-    if (winScroll >= 700) {
+    if (winScroll >= 650) {
       document.querySelector("#info-boxes-3").style.translate = "0px";
     }
-    if (winScroll >= 1000) {
+    if (winScroll >= 950) {
       document.querySelector("#info-boxes-4").style.translate = "0px";
     }
   }
-}
-
-// for mini mobile
-if (document.body.clientWidth < 500) {
-  // if (scrolled >= 9) {
-  //   document.querySelector("#info-boxes-1").style.translate = "0px";
-  // }
-  // if (scrolled >= 19) {
-  //   document.querySelector("#info-boxes-2").style.translate = "0px";
-  // }
-  // if (scrolled >= 29) {
-  //   document.querySelector("#info-boxes-3").style.translate = "0px";
-  // }
-  // if (scrolled >= 39) {
-  //   document.querySelector("#info-boxes-4").style.translate = "0px";
-  // }
 }
 
 // GoToTop

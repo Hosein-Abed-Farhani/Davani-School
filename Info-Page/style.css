@@ -14,9 +14,12 @@
 }
 
 body {
-  background: rgb(220, 220, 220);
+  background: rgb(233, 233, 233);
   transition: 300ms ease-out;
   min-width: 375px;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
 }
 
 a {
@@ -42,15 +45,16 @@ header {
   top: 0;
   padding-bottom: 2px;
   padding-top: 5px;
-  /* position: fixed;
-      top: 0; */
   box-shadow: 0 2px 8px 0 rgba(70, 199, 98, 0.463),
     0 2px 30px 0 rgba(70, 199, 98, 0.463);
   z-index: +1;
+  max-width: 1900px;
+  align-self: center;
 }
 
 nav {
   display: none;
+  max-width: 1900px;
 }
 
 .header-right {
@@ -161,6 +165,8 @@ nav {
 
 .content {
   overflow: hidden;
+  max-width: 1900px;
+  align-self: center;
 }
 
 .clip-path {
@@ -211,12 +217,12 @@ nav {
   width: 420px;
   height: auto;
   rotate: 180deg;
-  animation: top-anim 1s ease-out;
+  animation: top-anim 700ms ease-out;
 }
 
 @keyframes top-anim {
   from {
-    translate: 1000px;
+    translate: 2000px;
   }
   to {
     translate: 0px;
@@ -267,20 +273,24 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 1s ease-out;
+  transition: 700ms ease-out;
+  border: 5px solid white;
+  }
+.info-boxes:hover{
+  border: 5px solid #54c459;
 }
 
 #info-boxes-1{
-  translate: 1500px;
+  translate: 2000px;
 }
 #info-boxes-2{
-  translate: 1500px;
+  translate: 2000px;
 }
 #info-boxes-3{
-  translate: 1500px;
+  translate: 2000px;
 }
 #info-boxes-4 {
-  translate: 1500px;
+  translate: 2000px;
 }
 
 .boxes-right {
@@ -369,6 +379,8 @@ nav {
   width: 100%;
   height: 150px;
   position: relative;
+  max-width: 1900px;
+  align-self: center;
 }
 
 .footer-top-mos {
@@ -397,6 +409,8 @@ footer {
   align-items: center;
   flex-flow: column;
   justify-content: flex-start;
+  max-width: 1900px;
+  align-self: center;
 }
 
 .t-footer {
@@ -507,6 +521,12 @@ footer hr {
 }
 
 /* responsive code */
+
+@media screen and (min-width: 1900px){
+  .float-btn{
+    display: none;
+  }
+} 
 
 @media screen and (max-width: 1200px) {
   .info-boxes {
