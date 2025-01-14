@@ -281,14 +281,14 @@ nav {
 
 #info-boxes-1,
 #info-boxes-3 {
-  transform: translateX(2000px); /* باکس‌های ۱ و ۳ از راست وارد می‌شوند */
-  transition: transform 700ms ease-out; /* افزودن transition */
+  transform: translateX(2000px); 
+  transition: transform 500ms ease-out; 
 }
 
 #info-boxes-2,
 #info-boxes-4 {
-  transform: translateX(-2000px); /* باکس‌های ۲ و ۴ از چپ وارد می‌شوند */
-  transition: transform 700ms ease-out; /* افزودن transition */
+  transform: translateX(-2000px);
+  transition: transform 500ms ease-out; 
 }
 
 .boxes-right {
