@@ -52,7 +52,7 @@ setInterval(arrow, 3000);
 const observerOptions = {
   root: null,
   rootMargin: "0px",
-  threshold: 0.2, // وقتی ۱۰% از عنصر در viewport قرار گرفت، رویداد فعال می‌شود
+  threshold: 0.1, // وقتی ۱۰% از عنصر در viewport قرار گرفت، رویداد فعال می‌شود
 };
 
 const observer = new IntersectionObserver((entries) => {
@@ -76,7 +76,7 @@ document.querySelectorAll(".davani-box").forEach((box) => {
 const newObserverOptions = {
   root: null,
   rootMargin: "0px",
-  threshold: 0.2, // وقتی ۱۰٪ از عنصر در viewport قرار گرفت، رویداد فعال می‌شود
+  threshold: 0.1, // وقتی ۱۰٪ از عنصر در viewport قرار گرفت، رویداد فعال می‌شود
 };
 
 // box - 1 - anim
