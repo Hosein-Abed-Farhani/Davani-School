@@ -216,9 +216,9 @@ nav {
 
 #boy-img {
   width: 420px;
-  height: auto;
+  height: 640px;
   rotate: 180deg;
-  animation: top-anim 700ms ease-out;
+  animation: top-anim 850ms ease-out;
 }
 
 @keyframes top-anim {
@@ -235,7 +235,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 .title-info-box div {
   width: 15px;
@@ -243,6 +243,7 @@ nav {
   border-radius: 50%;
   background: #54c459;
   margin-right: 5%;
+  margin-bottom: 1px;
 }
 .title-info-box h1 {
   font-size: 25px;
@@ -256,7 +257,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 #info-box-1 {
@@ -268,13 +269,13 @@ nav {
   height: 135px;
   background: white;
   border-radius: 7px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 7debu00ms ease-out;
+  transition: 600ms ease-out;
   border: 5px solid white;
   box-shadow: 5px 5px #54c459;
 }
@@ -319,6 +320,71 @@ nav {
   margin-top: 5px;
   font-size: 16px;
   color: rgb(83, 83, 83);
+}
+
+#davani-h1 {
+  margin-top: 7px;
+  margin-right: 7px;
+}
+
+.davani-info {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.davani-box {
+  width: 60%;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 185px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column;
+  background: white;
+  border-radius: 6px;
+  opacity: 0;
+  transition: 1s ease-out;
+}
+
+#dav-box-2{
+  margin-top: 25px;
+}
+
+.davani-box h1 {
+  font-size: 22px;
+  margin-top: 25px;
+  width: 100%;
+  color: #54c459;
+}
+.davani-box #line {
+  height: 2px;
+  width: 100%;
+  background: #54c459;
+  margin-top: 10px;
+}
+.davani-box p {
+  font-size: 16px;
+  width: 100%;
+  margin-top: 20px;
+  color: gray;
+}
+.davani-pes{
+  margin-top: 1px;
+}
+#davani-p2{
+  width: auto;
+  display: inline;
+}
+
+.davani-pes span{
+  display: inline;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 /* scroll-bar */
@@ -618,6 +684,11 @@ footer hr {
     font-size: 18px;
     margin-bottom: 40px;
   }
+  .davani-box{
+    width: 85%;
+    height: auto;
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -630,7 +701,7 @@ footer hr {
     margin-top: 20px;
   }
   .info-boxes {
-    width: 80%;
+    width: 85%;
     margin-top: 30px;
     padding: 10px;
     height: 240px;
@@ -797,5 +868,14 @@ footer hr {
   #cp-right-info p {
     font-size: 18px;
     margin-bottom: 40px;
+  }
+  #info-boxes-2{
+    margin-top: 50px;
+  }
+  #info-boxes-3{
+    margin-top: 50px;
+  }
+  #info-boxes-4{
+    margin-top: 40px;
   }
 }
