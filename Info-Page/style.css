@@ -167,6 +167,7 @@ nav {
   overflow: hidden;
   max-width: 1900px;
   align-self: center;
+  padding-bottom: 10px;
 }
 
 .clip-path {
@@ -181,14 +182,14 @@ nav {
 }
 
 #cp-left {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: center;
 }
 
 #cp-right {
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -245,7 +246,7 @@ nav {
 }
 .title-info-box h1 {
   font-size: 25px;
-  margin-right: 10px;
+  margin-right: 12px;
 }
 
 #info-box-1,
@@ -273,11 +274,9 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 700ms ease-out;
+  transition: 50  0ms ease-out;
   border: 5px solid white;
-}
-.info-boxes:hover {
-  border: 5px solid #54c459;
+  box-shadow: 5px 5px #54c459;
 }
 
 #info-boxes-1 {
@@ -612,12 +611,6 @@ footer hr {
     width: 300px;
     height: auto;
   }
-  #cp-right {
-    width: 50%;
-  }
-  #cp-left {
-    width: 50%;
-  }
   #cp-right-info h1 {
     font-size: 25px;
   }
@@ -637,9 +630,10 @@ footer hr {
     margin-top: 20px;
   }
   .info-boxes {
-    width: 90%;
+    width: 80%;
     margin-top: 30px;
     padding: 10px;
+    height: 240px;
   }
   .boxes-left h2 {
     margin-top: 5px;
@@ -789,6 +783,7 @@ footer hr {
   }
   #cp-right {
     width: 100%;
+    margin-bottom: 10px;
   }
   #cp-left {
     width: 0;
