@@ -275,22 +275,20 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 600ms ease-out;
   border: 5px solid white;
   box-shadow: 5px 5px #54c459;
 }
 
-#info-boxes-1 {
-  translate: 2000px;
-}
-#info-boxes-2 {
-  translate: 2000px;
-}
+#info-boxes-1,
 #info-boxes-3 {
-  translate: 2000px;
+  transform: translateX(2000px); /* باکس‌های ۱ و ۳ از راست وارد می‌شوند */
+  transition: transform 700ms ease-out; /* افزودن transition */
 }
+
+#info-boxes-2,
 #info-boxes-4 {
-  translate: 2000px;
+  transform: translateX(-2000px); /* باکس‌های ۲ و ۴ از چپ وارد می‌شوند */
+  transition: transform 700ms ease-out; /* افزودن transition */
 }
 
 .boxes-right {
@@ -351,7 +349,7 @@ nav {
   transition: 1s ease-out;
 }
 
-#dav-box-2{
+#dav-box-2 {
   margin-top: 25px;
 }
 
@@ -373,15 +371,15 @@ nav {
   margin-top: 20px;
   color: gray;
 }
-.davani-pes{
+.davani-pes {
   margin-top: 1px;
 }
-#davani-p2{
+#davani-p2 {
   width: auto;
   display: inline;
 }
 
-.davani-pes span{
+.davani-pes span {
   display: inline;
   margin-left: 2px;
   margin-right: 2px;
@@ -684,7 +682,7 @@ footer hr {
     font-size: 18px;
     margin-bottom: 40px;
   }
-  .davani-box{
+  .davani-box {
     width: 85%;
     height: auto;
     padding-bottom: 20px;
@@ -869,13 +867,13 @@ footer hr {
     font-size: 18px;
     margin-bottom: 40px;
   }
-  #info-boxes-2{
+  #info-boxes-2 {
     margin-top: 50px;
   }
-  #info-boxes-3{
+  #info-boxes-3 {
     margin-top: 50px;
   }
-  #info-boxes-4{
+  #info-boxes-4 {
     margin-top: 40px;
   }
 }
