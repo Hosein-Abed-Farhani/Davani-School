@@ -21,7 +21,6 @@ body {
   overflow: hidden;
   max-width: 1900px;
   align-self: center;
-  padding-bottom: 10px;
 }
 
 .clip-path {
@@ -130,7 +129,7 @@ body {
   justify-content: center;
   align-items: center;
   border: 5px solid white;
-  box-shadow: 5px 5px #54c459;
+  box-shadow: 10px 10px 0px -4px #54c459 ;
 }
 
 #info-boxes-1,
@@ -239,6 +238,61 @@ body {
   margin-right: 2px;
 }
 
+.web-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.web-box {
+  width: 420px;
+  height: 450px;
+  position: relative;
+  background: white;
+  border-radius: 15px;
+  border: 1px solid #54c459;
+}
+
+.web-div-images {
+  width: 170px;
+  height: 80px;
+  border-radius: 50px;
+  border: 1px solid #54c459;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.web-div-images p {
+  font-size: 18px;
+}
+
+.web-info-img {
+  width: 50px;
+  height: 50px;
+}
+
+.web-info-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.prof-img {
+  width: 90px;
+  height: 90px;
+  margin-top: 35px;
+}
+
 /* content end */
 
 /* footr start */
@@ -297,6 +351,17 @@ body {
     height: 223px;
     padding-bottom: 20px;
   }
+  .web-info {
+    display: flex;
+    flex-flow: column;
+  }
+  .web-box {
+    width: 60%;
+    height: 500px;
+  }
+  #web-box-2 {
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -339,6 +404,9 @@ body {
   .clip-path {
     height: 415px;
   }
+  .web-box {
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -361,6 +429,9 @@ body {
   .title-info-box div {
     width: 10px;
     height: 10px;
+  }
+  .web-box {
+    width: 75%;
   }
 }
 
@@ -393,6 +464,19 @@ body {
   }
   #info-boxes-4 {
     margin-top: 40px;
+  }
+  .web-box {
+    width: 82%;
+  }
+  .web-div-images {
+    width: 160px;
+    height: 70px;
+    top: -35px;
+    right: -35px;
+  }
+  .web-info-img {
+    width: 40px;
+    height: 40px;
   }
 }
 
