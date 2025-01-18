@@ -62,9 +62,24 @@ document
     newObserver.observe(element);
   });
 
-  
-
-  
 // box - 3 - anim
+document.addEventListener("DOMContentLoaded", function () {
+  const webBoxes = document.querySelectorAll(".web-box");
 
-  
+  const options = {
+    threshold: 0.2, // وقتی ۱۰٪ از المان در viewport قرار گرفت
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+        observer.unobserve(entry.target); // دیگر نیازی به مشاهده نیست
+      }
+    });
+  }, options);
+
+  webBoxes.forEach((box) => {
+    observer.observe(box);
+  });
+});
