@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const webBoxes = document.querySelectorAll(".web-box");
 
   const options = {
-    threshold: 0.2, // وقتی ۱۰٪ از المان در viewport قرار گرفت
+    threshold: 0.3, // وقتی ۱۰٪ از المان در viewport قرار گرفت
   };
 
   const observer = new IntersectionObserver((entries, observer) => {

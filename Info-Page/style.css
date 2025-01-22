@@ -129,7 +129,6 @@ body {
   justify-content: center;
   align-items: center;
   border: 5px solid white;
-  box-shadow: 10px 10px 0px -4px #54c459;
 }
 
 #info-boxes-1,
@@ -310,7 +309,7 @@ body {
   font-size: 18px;
   margin-top: 50px;
   color: gray;
-  width: 90%;
+  width: 80%;
   text-align: center;
 }
 
@@ -357,8 +356,8 @@ body {
     margin: 0;
   }
   #boy-img {
-    width: 300px;
-    height: auto;
+    width: 310px;
+    height: 500px;
   }
   #cp-right-info h1 {
     font-size: 25px;

@@ -84,7 +84,7 @@ nav {
 
 .header-content p {
   margin-top: 5px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .header-left {
@@ -213,7 +213,7 @@ nav {
 .footer-top-mos {
   width: 100%;
   height: 150px;
-  background: #43a047;
+  background: #2b9430;
   clip-path: polygon(100% 30px, 100% 101%, 0 101%);
 }
 
@@ -231,7 +231,7 @@ footer {
   width: 100%;
   height: 450px;
   position: relative;
-  background: #43a047;
+  background: #2b9430;
   display: flex;
   align-items: center;
   flex-flow: column;
@@ -375,7 +375,7 @@ footer hr {
   }
   nav {
     width: auto;
-    height: 45px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;

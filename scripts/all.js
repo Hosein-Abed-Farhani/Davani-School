@@ -22,13 +22,6 @@ function scroll() {
   } else {
     document.querySelector(".float-btn").style.translate = "100px";
   }
-  console.log("Scroll Height:", document.documentElement.scrollHeight);
-  console.log("Client Height:", document.documentElement.clientHeight);
-  console.log(
-    "Height Difference:",
-    document.documentElement.scrollHeight -
-      document.documentElement.clientHeight
-  );
 }
 
 // GoToTop
