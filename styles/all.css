@@ -507,4 +507,18 @@ footer hr {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .header-right{
+    margin-right: 20px;
+    width: 30%;
+  }
+  .header-left{
+    margin-left: 20px;
+    width: 70%;
+  }
+  footer{
+    padding-bottom: 90px;
+  }
+}
+
 /* responsive end */

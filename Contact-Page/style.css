@@ -11,7 +11,6 @@
 body {
   background: rgb(233, 233, 233);
   transition: 300ms ease-out;
-  min-width: 375px;
   width: 100%;
   display: flex;
   flex-flow: column;
