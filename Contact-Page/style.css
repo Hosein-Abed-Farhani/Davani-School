@@ -537,6 +537,9 @@ body {
     margin-top: 5px;
     font-size: 18px;
   }
+  .content-contact p{
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 550px) {
