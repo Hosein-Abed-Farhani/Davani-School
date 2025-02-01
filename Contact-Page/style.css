@@ -257,12 +257,12 @@ body {
   background: white;
   width: 65%;
   height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 45px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
-  margin-top: 50px;
+  margin-top: 30px;
   position: relative;
 }
 
@@ -317,11 +317,11 @@ body {
 
 #contact-h2-2,
 #contact-i-2 {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 #contact-h2-4,
 #contact-i-4 {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .contact-button {
@@ -345,7 +345,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-#arrow-1{
+#arrow-1 {
   width: 40px;
   border: 1px solid #079e3e;
   border-radius: 50%;
@@ -353,7 +353,7 @@ body {
   cursor: pointer;
   transition: 350ms ease-out;
 }
-#arrow-2{
+#arrow-2 {
   width: 40px;
   border: 1px solid #079e3e;
   border-radius: 50%;
@@ -365,11 +365,12 @@ body {
   right: 75px;
 }
 
-#arrow-1:hover,#arrow-2:hover{
+#arrow-1:hover,
+#arrow-2:hover {
   width: 45px;
 }
 
-.button-left button{
+.button-left button {
   width: 180px;
   height: 50px;
   background: none;
@@ -380,7 +381,7 @@ body {
   transition: 350ms ease-out;
 }
 
-.button-left button:hover{
+.button-left button:hover {
   background: #079e3e;
   color: rgb(233, 233, 233);
 }
@@ -411,10 +412,10 @@ body {
   .content-img-right div {
     width: 160px;
   }
-  .contact{
+  .contact {
     width: 80%;
   }
-  .contact-top{
+  .contact-top {
     width: 80%;
   }
   .button-left {
@@ -429,13 +430,13 @@ body {
   .content-img {
     height: 500px;
   }
-  .contact{
+  .contact {
     width: 95%;
   }
-  .contact-top{
+  .contact-top {
     width: 95%;
   }
-  .button-right{
+  .button-right {
     width: 45%;
   }
 }
@@ -458,23 +459,28 @@ body {
   .content-img-right h1 {
     font-size: 37px;
   }
-  .contact{
+  .contact {
     flex-flow: column;
     align-items: center;
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .contact-right{
+  .contact-right {
     width: 80%;
   }
-  .contact-center{
+  .contact-center {
     display: none;
   }
-  .contact-left{
+  .contact-left {
     width: 80%;
   }
-  #contact-h2-2, #contact-i-2,#contact-h2-3, #contact-i-3,#contact-h2-4, #contact-i-4{
-    margin-top: 70px;
+  #contact-h2-2,
+  #contact-i-2,
+  #contact-h2-3,
+  #contact-i-3,
+  #contact-h2-4,
+  #contact-i-4 {
+    margin-top: 55px;
   }
   .content-contact p {
     margin-top: 30px;
@@ -482,7 +488,7 @@ body {
   .contact p {
     font-size: 18px;
   }
-  .contact h2{
+  .contact h2 {
     font-size: 22px;
   }
 }
@@ -537,7 +543,7 @@ body {
     margin-top: 5px;
     font-size: 18px;
   }
-  .content-contact p{
+  .content-contact p {
     width: 90%;
   }
 }
@@ -566,30 +572,31 @@ body {
     width: 45px;
     height: 55px;
   }
-  .contact-right{
+  .contact-right {
     width: 95%;
   }
   .contact p {
     font-size: 16px;
   }
-  .contact h2{
+  .contact h2 {
     font-size: 20px;
   }
-  #arrow-1 ,#arrow-2{
+  #arrow-1,
+  #arrow-2 {
     width: 35px;
   }
-  #arrow-1:hover ,#arrow-2:hover{
+  #arrow-1:hover,
+  #arrow-2:hover {
     width: 40px;
   }
-  .button-left button{
+  .button-left button {
     width: 160px;
   }
-  .circle{
+  .circle {
     width: 50px;
     height: 50px;
     font-size: 20px;
   }
-  
 }
 
 /* responsive end */
