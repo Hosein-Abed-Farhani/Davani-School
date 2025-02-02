@@ -18,6 +18,22 @@ a {
   color: #000;
 }
 
+:root{
+ scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  position: absolute;
+}
+::-webkit-scrollbar-track{
+  background: none;
+}
+::-webkit-scrollbar-thumb{
+  background: rgb(197, 197, 197);
+  border-radius: 7px;
+}
+
 /* header and nav start */
 
 header {
