@@ -140,6 +140,14 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+.content-info.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .info-box {

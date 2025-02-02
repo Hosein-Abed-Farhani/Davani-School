@@ -27,7 +27,28 @@ document.addEventListener("DOMContentLoaded", function () {
   observer.observe(imgLink2);
 });
 
-// anim 2 (contact)
+// anim 2
+document.addEventListener("DOMContentLoaded", function () {
+  const contentInfo = document.querySelector(".content-info");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          contentInfo.classList.add("visible");
+          observer.unobserve(contentInfo); // Stop observing after animation
+        }
+      });
+    },
+    {
+      threshold: 0.1, // Trigger when 10% of the element is visible
+    }
+  );
+
+  observer.observe(contentInfo);
+});
+
+// anim 3 (contact)
 let arrow_let = 1;
 function arrow_right() {
   arrow_let--;

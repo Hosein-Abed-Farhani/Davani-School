@@ -18,26 +18,29 @@ a {
   color: #000;
 }
 
-:root{
- scroll-behavior: smooth;
+/* نزم شدن اسکرول */
+
+:root {
+  scroll-behavior: smooth;
 }
 
 /* style for scroll bar (default scroll bar) (google and other)*/
 
-::-webkit-scrollbar{
-  width: 11px;
+::-webkit-scrollbar {
+  width: 13px;
   position: absolute;
 }
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: none;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: rgb(155, 155, 155);
   border-radius: 7px;
   transition: 300ms ease-out;
+  height: 150px;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background: rgb(170, 170, 170);
 }
 
