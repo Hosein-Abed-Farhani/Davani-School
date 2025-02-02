@@ -422,6 +422,8 @@ footer hr {
     overflow-y: hidden;
     box-shadow: 0 2px 8px 0 rgba(70, 199, 98, 0.463),
       0 2px 30px 0 rgba(70, 199, 98, 0.463);
+    -ms-overflow-style: none; /* غیرفعال کردن در اینترنت اکسپلورر و اج */
+    scrollbar-width: none; /* پنهان کردن در فایرفاکس */
   }
 
   nav::-webkit-scrollbar {
