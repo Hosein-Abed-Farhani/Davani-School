@@ -18,6 +18,11 @@ a {
   color: #000;
 }
 
+/* جلوگیری از درگ و موس داون */
+img{
+  pointer-events: none;
+}
+
 /* header and nav start */
 
 header {
