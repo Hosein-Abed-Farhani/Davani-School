@@ -34,14 +34,15 @@ body {
 }
 
 #cp-left {
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 #cp-right {
-  width: 60%;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -66,9 +67,9 @@ body {
   color: rgb(83, 83, 83);
 }
 
-#boy-img {
-  width: 420px;
-  height: 640px;
+#info-img {
+  width: 500px;
+  height: 500px;
   rotate: 180deg;
   animation: top-anim 850ms ease-out;
 }
@@ -320,6 +321,10 @@ body {
 /* responsive start */
 
 @media screen and (max-width: 1200px) {
+  #info-img {
+    width: 400px;
+    height: 400px;
+  }
   .info-boxes {
     flex-flow: column;
     height: 250px;
@@ -352,10 +357,6 @@ body {
   .clip-path {
     height: 500px;
     margin: 0;
-  }
-  #boy-img {
-    width: 310px;
-    height: 500px;
   }
   #cp-right-info h1 {
     font-size: 25px;
@@ -406,19 +407,25 @@ body {
   .boxes-right img {
     width: 130px;
   }
+  #cp-right {
+    width: 45%;
+  }
+  #cp-left {
+    width: 55%;
+  }
+  #cp-right-info h1 {
+    font-size: 22px;
+  }
+  #cp-right-info p {
+    font-size: 16px;
+  }
+  #info-img {
+    width: 300px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  #cp-right {
-    width: 60%;
-  }
-  #cp-left {
-    width: 40%;
-  }
-  #boy-img {
-    width: 250px;
-    height: 416.6px;
-  }
   .clip-path {
     height: 415px;
   }
@@ -451,12 +458,6 @@ body {
   .web-box {
     width: 75%;
   }
-}
-
-@media screen and (max-width: 550px) {
-  .clip-path {
-    clip-path: polygon(100% 100%, 100% 0%, -1200% 100%);
-  }
   #cp-right {
     width: 100%;
     margin-bottom: 10px;
@@ -464,8 +465,14 @@ body {
   #cp-left {
     width: 0;
   }
-  #boy-img {
+  #info-img {
     display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .clip-path {
+    clip-path: polygon(100% 100%, 100% 0%, -1200% 100%);
   }
   #cp-right-info h1 {
     font-size: 25px;

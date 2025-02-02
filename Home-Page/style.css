@@ -16,6 +16,10 @@ body {
   flex-flow: column;
 }
 
+/* .content-top{
+  margin-top: 120px;
+} */
+
 .slider {
   width: 100%;
   height: auto;
