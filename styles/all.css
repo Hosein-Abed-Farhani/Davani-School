@@ -159,17 +159,12 @@ nav {
 #span-header {
   font-size: 20px;
   opacity: 0.3;
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 10px;
 }
 
-#search-icon {
-  font-size: 20px;
-  transform: rotate(90deg);
-  color: #000;
-  margin-left: 10px;
-  margin-right: 10px;
-  transition: 800ms ease;
+#user-profile {
+  width: 50px;
 }
 
 #search-icon:hover {
@@ -542,19 +537,35 @@ footer hr {
   #ft-dash {
     display: none;
   }
+  .header-left {
+    margin-left: 20px;
+  }
+  .header-right {
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  .header-right {
-    margin-right: 20px;
-    width: 30%;
-  }
-  .header-left {
-    margin-left: 20px;
-    width: 70%;
-  }
   footer {
     padding-bottom: 90px;
+  }
+  #user-profile {
+    width: 45px;
+  }
+  #logo {
+    width: 50px;
+  }
+  #login-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .header-left {
+    margin-left: 10px;
+  }
+  .header-right {
+    margin-right: 10px;
   }
 }
 
