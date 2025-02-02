@@ -22,17 +22,31 @@ a {
  scroll-behavior: smooth;
 }
 
+/* style for scroll bar (default scroll bar) (google and other)*/
+
 ::-webkit-scrollbar{
-  width: 10px;
+  width: 11px;
   position: absolute;
 }
 ::-webkit-scrollbar-track{
   background: none;
 }
 ::-webkit-scrollbar-thumb{
-  background: rgb(175, 175, 175);
+  background: rgb(155, 155, 155);
   border-radius: 7px;
+  transition: 300ms ease-out;
 }
+
+::-webkit-scrollbar-thumb:hover{
+  background: rgb(170, 170, 170);
+}
+
+/* /* style for scroll bar (default scroll bar) (firefox) */
+/* 
+html{
+  scrollbar-width: thin;
+  scrollbar-color: rgb(155, 155, 155) none;
+} */
 
 /* header and nav start */
 

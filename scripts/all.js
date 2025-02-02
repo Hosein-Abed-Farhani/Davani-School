@@ -56,3 +56,12 @@ document.addEventListener("mousedown", function (event) {
     event.preventDefault();
   }
 });
+
+// فهمیدن مرورگر کاربر برای استایل اسکرول بار
+
+var userAgent = navigator.userAgent;
+if (userAgent.includes("firefox")) {
+  document.querySelector("html").style.scrollbarWidth = "thin";
+  document.querySelector("html").style.scrollbarColor =
+    "rgb(155, 155, 155) none";
+}
