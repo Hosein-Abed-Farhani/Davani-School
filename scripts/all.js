@@ -44,3 +44,14 @@ function arrow_off() {
 }
 
 setInterval(arrow, 3000);
+
+// limit right click
+document.addEventListener("contextmenu", function (event) {
+  event.preventDefault();
+});
+
+// limit mouse down/prees
+
+document.addEventListener("mousedown", function (event) {
+  event.preventDefault();
+});
