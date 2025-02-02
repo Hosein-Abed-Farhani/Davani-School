@@ -342,17 +342,19 @@ footer {
   align-items: center;
 }
 
-.cf-img i {
-  color: white;
-  font-size: 28px;
-  margin-left: 15px;
-  margin-right: 15px;
+.cf-img img {
+  width: 25px;
+  margin-left: 7px;
+  margin-right: 7px;
   transition: 200ms ease-out;
   cursor: pointer;
+  background: white;
+  border-radius: 7px;
+  padding: 5px;
 }
 
-.cf-img i:hover {
-  color: #60e967;
+.cf-img img:hover {
+  background: rgb(220, 220, 220);
 }
 
 #cf-last-img {
