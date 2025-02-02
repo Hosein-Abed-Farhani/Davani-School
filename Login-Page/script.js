@@ -10,13 +10,15 @@ function log_2() {
   document.querySelector(".right").style.display = "flex";
 }
 
-// limit right click
+// محدود کردن راست کلیک روی عکس‌ها
 document.addEventListener("contextmenu", function (event) {
-  event.preventDefault();
+  if (event.target.tagName === "IMG") {
+    event.preventDefault();
+  }
 });
 
-// limit mouse down/prees
-
 document.addEventListener("mousedown", function (event) {
-  event.preventDefault();
+  if (event.target.tagName === "IMG") {
+    event.preventDefault();
+  }
 });
