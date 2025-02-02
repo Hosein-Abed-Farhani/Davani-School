@@ -417,7 +417,7 @@ footer hr {
     margin-top: 63px;
     background: white;
     overflow-x: scroll;
-    overflow-y: none;
+    overflow-y: hidden;
     box-shadow: 0 2px 8px 0 rgba(70, 199, 98, 0.463),
       0 2px 30px 0 rgba(70, 199, 98, 0.463);
   }
