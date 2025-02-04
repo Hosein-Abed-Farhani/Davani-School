@@ -40,6 +40,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-flow: column;
+  animation: top-anim-right 700ms ease-out;
 }
 
 .content-img-right div {
@@ -62,6 +63,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: top-anim-left 700ms ease-out;
 }
 
 .content-img-left img {

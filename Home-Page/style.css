@@ -30,6 +30,7 @@ body {
   display: flex;
   align-items: center;
   flex-flow: column;
+  animation: top-anim-right 700ms ease-out;
 }
 .ct-right-h1 {
   width: 100%;
@@ -43,7 +44,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
+  height: 110px;
 }
 
 .ct-right-h1 h1,
@@ -69,7 +70,8 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
+  animation: top-anim-left 700ms ease-out;
 }
 
 #think-img {

@@ -2,7 +2,7 @@
   font-family: peyda;
   src: url(../Fonts/PeydaWeb.woff);
 }
-@font-face{
+@font-face {
   font-family: yekan;
   src: url(../fonts/Yekan-Bakh-FaNum-08-Fat.woff);
 }
@@ -13,6 +13,22 @@
   font-size: 16px;
 }
 
+@keyframes top-anim-right {
+  from {
+    translate: 1500px;
+  }
+  to {
+    translate: 0px;
+  }
+}
+@keyframes top-anim-left {
+  from {
+    translate: -1500px;
+  }
+  to {
+    translate: 0px;
+  }
+}
 ::selection {
   background: #54c459;
 }
