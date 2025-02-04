@@ -2,6 +2,10 @@
   font-family: peyda;
   src: url(../Fonts/PeydaWeb.woff);
 }
+@font-face{
+  font-family: yekan;
+  src: url(../fonts/Yekan-Bakh-FaNum-08-Fat.woff);
+}
 * {
   padding: 0;
   margin: 0;
@@ -164,7 +168,7 @@ nav {
 }
 
 #user-profile {
-  width: 50px;
+  width: 45px;
 }
 
 #search-icon:hover {

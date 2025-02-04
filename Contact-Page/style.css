@@ -185,13 +185,17 @@ body {
 
 #info-bottom {
   font-size: 20px;
-  color: rgb(210 210 210);
+  color: rgb(220, 220, 220);
   margin-right: 70px;
   margin-top: 10px;
 }
 
 #info-bottom p {
   font-size: 20px;
+}
+
+#number-phone{
+  font-family: yekan;
 }
 
 .content-contact {

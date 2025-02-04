@@ -229,6 +229,11 @@ body {
 #davani-p2 {
   width: auto;
   display: inline;
+
+}
+
+.phone-number{
+  font-family: yekan;
 }
 
 .davani-pes span {
