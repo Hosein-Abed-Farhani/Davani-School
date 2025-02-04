@@ -196,7 +196,7 @@ body {
   font-size: 20px;
 }
 
-#number-phone{
+#number-phone {
   font-family: yekan;
 }
 
@@ -407,6 +407,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.map.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .map iframe {
