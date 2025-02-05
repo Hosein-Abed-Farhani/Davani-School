@@ -30,7 +30,8 @@ body {
   align-items: center;
   background: #079e3e;
   margin-top: 60px;
-  z-index: -2;
+  z-index: -1;
+  overflow: hidden;
 }
 
 .content-img-right {
