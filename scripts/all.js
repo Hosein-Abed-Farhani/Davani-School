@@ -65,3 +65,27 @@ if (userAgent.includes("firefox")) {
   document.querySelector("html").style.scrollbarColor =
     "rgb(155, 155, 155) none";
 }
+
+// row box anim
+
+document.addEventListener("DOMContentLoaded", function () {
+  const rowBoxes = document.querySelectorAll(".row-box");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio >= 0.1) {
+          entry.target.classList.add("visible");
+        }
+      });
+    },
+    {
+      threshold: 0.1, // 10% از آیتم باید در دید باشد
+    }
+  );
+
+  // مشاهده هر کدام از آیتم‌ها
+  rowBoxes.forEach((box) => {
+    observer.observe(box);
+  });
+});
