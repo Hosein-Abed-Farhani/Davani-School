@@ -352,12 +352,12 @@ body {
 .toman span {
   font-size: 18px;
   margin-right: 5px;
-  font-family: yekan;
+  font-family: yekan , peyda;
   color: rgb(63, 63, 63);
 }
 #price {
   font-size: 20px;
-  font-family: yekan;
+  font-family: yekan , peyda;
   width: auto;
   color: rgb(63, 63, 63);
 }
