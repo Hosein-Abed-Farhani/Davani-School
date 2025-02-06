@@ -111,9 +111,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
   max-width: 1900px;
   align-self: center;
+  margin-bottom: 100px;
 }
 
 .slide-box {
@@ -432,7 +432,7 @@ body {
 }
 
 .class {
-  width: 90%;
+  width: 85%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -440,10 +440,7 @@ body {
   flex-flow: column;
 }
 .class h1 {
-  align-self: self-start;
   font-size: 24px;
-  margin-top: 150px;
-  margin-bottom: 50px;
 }
 .class-boxes {
   width: 100%;
@@ -497,6 +494,57 @@ body {
 #cb-4 {
   background-image: linear-gradient(to right, #ff3571, #880175);
 }
+
+.title-1{
+  display: flex;
+  align-items: center;
+}
+.title-1 i{
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 10px;
+}
+.title-2{
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  align-self: self-start;
+}
+.title-2 i{
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title-3{
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.title-3 h2{
+  font-size: 24px;
+}
+.title-3 i{
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.gallery{
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ flex-flow: column;
+}
+.gallery-top{
+  width: 85%;
+}
+
 
 /* content end */
 
@@ -566,15 +614,6 @@ body {
   }
 }
 @media screen and (max-width: 1000px) {
-  #load-circ {
-    border: 13px solid rgb(220, 220, 220);
-    border-top: 13px solid #43a047;
-    width: 50px;
-    height: 50px;
-  }
-  .slider {
-    margin-top: 120px;
-  }
   .slide-box {
     width: 700px;
     margin-left: 20px;
