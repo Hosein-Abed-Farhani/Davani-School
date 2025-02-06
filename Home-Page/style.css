@@ -243,7 +243,7 @@ body {
   margin-right: 10px;
 }
 
-.fist-row {
+.first-row {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -288,7 +288,7 @@ body {
   display: flex;
   flex-flow: column;
   opacity: 0;
-  transition: opacity 1s ease-in-out , box-shadow 250ms ease-out;
+  transition: opacity 1s ease-in-out, box-shadow 250ms ease-out;
 }
 
 .row-box.visible {
@@ -304,11 +304,11 @@ body {
   align-items: center;
   flex-flow: column;
 }
-.rb-top a{
+.rb-top a {
   position: relative;
 }
-.rb-top span{
-  font-family: yekan , peyda;
+.rb-top span {
+  font-family: yekan, peyda;
   font-size: 18px;
   color: white;
   position: absolute;
@@ -363,14 +363,15 @@ body {
 .toman span {
   font-size: 18px;
   margin-right: 5px;
-  font-family: yekan , peyda;
+  font-family: yekan, peyda;
   color: rgb(63, 63, 63);
 }
 #price {
   font-size: 20px;
-  font-family: yekan , peyda;
+  font-family: yekan, peyda;
   width: auto;
   color: rgb(63, 63, 63);
+  margin-bottom: 1px;
 }
 
 .toman-right {
@@ -394,6 +395,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.toman-left p {
+  color: #43a047;
+  font-size: 20px;
+  font-family: yekan, peyda;
 }
 
 #box-line {
@@ -424,6 +431,73 @@ body {
   color: #43a047;
 }
 
+.class {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-flow: column;
+}
+.class h1 {
+  align-self: self-start;
+  font-size: 24px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.class-boxes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.boxes-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.boxes-left {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.class-box {
+  width: 45%;
+  height: 170px;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  border-radius: 10px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.class-box.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#cb-1 {
+  background-image: linear-gradient(to right, #ffb535, #f2295b);
+}
+#cb-2 {
+  background-image: linear-gradient(to right, #28e55d, #30c5e4);
+}
+#cb-3 {
+  background-image: linear-gradient(to right, #2e9eff, #9c33f7);
+}
+#cb-4 {
+  background-image: linear-gradient(to right, #ff3571, #880175);
+}
+
 /* content end */
 
 /* footr start */
@@ -443,7 +517,7 @@ body {
     width: 400px;
     height: 400px;
   }
-  .fist-row {
+  .first-row {
     flex-flow: column;
   }
   .last-row {
@@ -477,6 +551,19 @@ body {
   #price {
     font-size: 22px;
   }
+  .class-boxes {
+    flex-flow: column;
+  }
+  .boxes-right {
+    width: 80%;
+  }
+  .boxes-left {
+    width: 80%;
+    margin-top: 50px;
+  }
+  .class-box {
+    width: 40%;
+  }
 }
 @media screen and (max-width: 1000px) {
   #load-circ {
@@ -509,6 +596,16 @@ body {
   }
   .ct-right p {
     font-size: 18px;
+  }
+  .boxes-right {
+    width: 90%;
+  }
+  .boxes-left {
+    width: 90%;
+    margin-top: 50px;
+  }
+  .class-box {
+    width: 40%;
   }
 }
 
@@ -548,7 +645,7 @@ body {
     flex-flow: column;
     margin: 0;
   }
-  .fist-row {
+  .first-row {
     margin: 0;
   }
   .last-row {
@@ -567,6 +664,16 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .boxes-right {
+    width: 100%;
+  }
+  .boxes-left {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .class-box {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -602,11 +709,31 @@ body {
     align-self: flex-end;
     margin-top: 25px;
   }
+  .boxes-right {
+    width: 100%;
+  }
+  .boxes-left {
+    width: 100%;
+  }
+  .class-box {
+    width: 45%;
+    height: 150px;
+  }
+  .boxes-left {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .row-box {
     width: 95%;
+  }
+  .class-box {
+    width: 47%;
+    height: 150px;
+  }
+  .boxes-left {
+    margin-top: 10px;
   }
 }
 
