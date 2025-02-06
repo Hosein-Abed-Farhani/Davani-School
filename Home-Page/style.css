@@ -304,6 +304,17 @@ body {
   align-items: center;
   flex-flow: column;
 }
+.rb-top a{
+  position: relative;
+}
+.rb-top span{
+  font-family: yekan , peyda;
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  bottom: 7px;
+  left: 17px;
+}
 .rb-center {
   width: 100%;
   display: flex;
