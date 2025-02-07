@@ -178,7 +178,6 @@ function cir_5() {
   document.querySelector("#circle-5").style.borderRadius = "15px";
 }
 
-
 // class box anim
 
 document.addEventListener("DOMContentLoaded", function () {

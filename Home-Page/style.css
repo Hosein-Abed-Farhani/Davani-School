@@ -502,7 +502,8 @@ body {
 .title-1 i{
   font-size: 16px;
   color: #49b04e;
-  margin-left: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 .title-2{
   display: flex;
@@ -514,8 +515,8 @@ body {
 .title-2 i{
   font-size: 16px;
   color: #49b04e;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .title-3{
@@ -530,8 +531,8 @@ body {
 .title-3 i{
   font-size: 16px;
   color: #49b04e;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
 }
 
 .gallery{
