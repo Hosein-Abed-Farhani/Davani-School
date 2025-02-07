@@ -80,10 +80,25 @@
     <!-- navbar end -->
 
     <!-- content start -->
-
-    <div class="search-box"></div>
+    <div class="clip-path">
+        <div class="search-box">
+            <div class="inp">
+                <input type="text" name="search" id="search" placeholder="چی میخوای یادبگیری؟">
+                <button><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <h1>آموزش صفر تا صد دروسه رشته شبکه و نرم افزار در اینجا قرار گرفته!</h1>
+        </div>
+    </div>
     <div class="daste">
-
+        <i id="arrow-sel" class="fa fa-arrow-down" aria-hidden="true"></i>
+        <select onfocus="sel()" onblur="bul()" name="daste-bandi" id="daste-bandi">
+            <option value="0">جدیدترین</option>
+            <option value="1">دهم</option>
+            <option value="2">یازدهم</option>
+            <option value="3">دوازدهم</option>
+            <option value="4">فرادرس</option>
+        </select>
+        <button>اعمال فیلتر</button>
     </div>
     <div id="new-1" class="new">
         <div id="title-1">

@@ -502,27 +502,27 @@ body {
 .title-1 i{
   font-size: 16px;
   color: #49b04e;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .title-2{
   display: flex;
   align-items: center;
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   align-self: self-start;
 }
 .title-2 i{
   font-size: 16px;
   color: #49b04e;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .title-3{
   display: flex;
   align-items: center;
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 .title-3 h2{
   font-size: 24px;
@@ -530,8 +530,8 @@ body {
 .title-3 i{
   font-size: 16px;
   color: #49b04e;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .gallery{

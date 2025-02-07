@@ -73,3 +73,11 @@ function new_5() {
   document.querySelector("#bn-4").style.color = "rgb(75, 75, 75)";
   document.querySelector("#bn-5").style.color = "#43a047";
 }
+
+
+function sel(){
+  document.querySelector("#arrow-sel").style.rotate = "180deg";
+}
+function bul(){
+  document.querySelector("#arrow-sel").style.rotate = "0deg";
+}
