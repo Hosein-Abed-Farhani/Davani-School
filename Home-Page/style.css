@@ -498,7 +498,6 @@ body {
 .title-1{
   display: flex;
   align-items: center;
-  width: 100%;
 }
 .title-1 i{
   font-size: 16px;
@@ -762,7 +761,12 @@ body {
   .boxes-left {
     margin-top: 20px;
   }
+  .title-1{
+    width: 100%;
+  }
+
 }
+
 
 @media screen and (max-width: 425px) {
   .row-box {
