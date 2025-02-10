@@ -239,7 +239,7 @@ body {
 #title-1 {
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   margin-top: 150px;
   width: 100%;
 }
@@ -270,7 +270,7 @@ body {
   cursor: pointer;
   display: none;
 }
-.bottom-row p {
+.bottom-row a {
   height: 100%;
   font-size: 28px;
   width: 45px;
@@ -282,7 +282,7 @@ body {
   transition: 150ms ease-out;
 }
 
-.bottom-row p:hover {
+.bottom-row a:hover {
   color: #43a047;
 }
 
@@ -450,7 +450,7 @@ body {
 #title-2 {
   display: flex;
   align-items: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   margin-top: 100px;
   width: 85%;
   align-self: center;
