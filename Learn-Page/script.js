@@ -127,7 +127,7 @@ function new_5() {
   document.querySelector("#bn-5").style.color = "#43a047";
 }
 
-function dah_1(){
+function dah_1() {
   // row
   document.querySelector("#dahom-1").style.display = "flex";
   document.querySelector("#dahom-2").style.display = "none";
@@ -135,7 +135,7 @@ function dah_1(){
   document.querySelector("#bd-1").style.color = "#43a047";
   document.querySelector("#bd-2").style.color = "rgb(75, 75, 75)";
 }
-function dah_2(){
+function dah_2() {
   // row
   document.querySelector("#dahom-1").style.display = "none";
   document.querySelector("#dahom-2").style.display = "flex";
@@ -144,7 +144,7 @@ function dah_2(){
   document.querySelector("#bd-2").style.color = "#43a047";
 }
 
-function yaz_1(){
+function yaz_1() {
   // row
   document.querySelector("#yazdah-1").style.display = "flex";
   document.querySelector("#yazdah-2").style.display = "none";
@@ -152,7 +152,7 @@ function yaz_1(){
   document.querySelector("#by-1").style.color = "#43a047";
   document.querySelector("#by-2").style.color = "rgb(75, 75, 75)";
 }
-function yaz_2(){
+function yaz_2() {
   // row
   document.querySelector("#yazdah-1").style.display = "none";
   document.querySelector("#yazdah-2").style.display = "flex";
@@ -161,7 +161,7 @@ function yaz_2(){
   document.querySelector("#by-2").style.color = "#43a047";
 }
 
-function dav_1(){
+function dav_1() {
   // row
   document.querySelector("#davazdah-1").style.display = "flex";
   document.querySelector("#davazdah-2").style.display = "none";
@@ -169,7 +169,7 @@ function dav_1(){
   document.querySelector("#bz-1").style.color = "#43a047";
   document.querySelector("#bz-2").style.color = "rgb(75, 75, 75)";
 }
-function dav_2(){
+function dav_2() {
   // row
   document.querySelector("#davazdah-1").style.display = "none";
   document.querySelector("#davazdah-2").style.display = "flex";
@@ -177,4 +177,3 @@ function dav_2(){
   document.querySelector("#bz-1").style.color = "rgb(75, 75, 75)";
   document.querySelector("#bz-2").style.color = "#43a047";
 }
-

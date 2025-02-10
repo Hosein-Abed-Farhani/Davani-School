@@ -114,6 +114,14 @@ body {
   max-width: 1900px;
   align-self: center;
   margin-bottom: 100px;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.slider.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .slide-box {
@@ -220,6 +228,7 @@ body {
   flex-flow: column;
   align-items: center;
   align-self: center;
+  max-width: 1900px;
 }
 .container-top {
   width: 100%;
@@ -438,6 +447,7 @@ body {
   justify-content: center;
   align-self: center;
   flex-flow: column;
+  max-width: 1900px;
 }
 .class h1 {
   font-size: 24px;
@@ -495,57 +505,246 @@ body {
   background-image: linear-gradient(to right, #ff3571, #880175);
 }
 
-.title-1{
+.title-1 {
   display: flex;
   align-items: center;
 }
-.title-1 i{
+.title-1 i {
   font-size: 16px;
   color: #49b04e;
   margin-left: 7px;
   margin-right: 7px;
 }
-.title-2{
-  display: flex;
-  align-items: center;
-  margin-top: 150px;
-  margin-bottom: 35px;
-  align-self: self-start;
-}
-.title-2 i{
-  font-size: 16px;
-  color: #49b04e;
-  margin-left: 7px;
-  margin-right: 7px;
-}
-
-.title-3{
-  display: flex;
-  align-items: center;
-  margin-top: 150px;
-  margin-bottom: 35px;
-}
-.title-3 h2{
+.title-1 h1 {
   font-size: 24px;
 }
-.title-3 i{
+.title-2 {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  align-self: start;
+}
+.title-2 i {
   font-size: 16px;
   color: #49b04e;
   margin-left: 7px;
   margin-right: 7px;
 }
 
-.gallery{
- width: 100%;
- display: flex;
- justify-content: center;
- align-items: center; 
- flex-flow: column;
+.title-3 {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
 }
-.gallery-top{
+.title-3 h2 {
+  font-size: 24px;
+}
+.title-3 i {
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.title-4 {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  align-self: start;
+}
+.title-4 h2 {
+  font-size: 24px;
+}
+.title-4 i {
+  font-size: 16px;
+  color: #49b04e;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  max-width: 1900px;
+  align-self: center;
+}
+.gallery-top {
   width: 85%;
 }
 
+.cart-container {
+  width: 85%;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  position: relative;
+  max-width: 1900px;
+}
+.test-carts {
+  width: 800px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.test-carts.visible {
+  opacity: 1;
+}
+
+.t-carts {
+  display: flex;
+  align-items: center;
+  transition: 350ms ease-out;
+}
+
+.t-cart {
+  width: 100%;
+  min-width: 300px;
+  height: 420px;
+  margin-left: 50px;
+  margin-right: 50px;
+  transition: 200ms ease-out;
+  background: white;
+  display: flex;
+  flex-flow: column;
+}
+
+.t-cart:hover {
+  box-shadow: 6px 6px 20px #cccccc, -6px -6px 20px #cccccc;
+}
+
+.t-c-top {
+  width: 100%;
+  height: 40%;
+  background: #49b04e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.t-c-top h1 {
+  font-size: 80px;
+  color: white;
+}
+
+.t-c-center {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.top-line {
+  width: 85%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.103);
+  align-self: center;
+}
+
+.t-c-bottom {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#c-a-left {
+  rotate: 180deg;
+  width: 50px;
+  border: 1px solid #43a047;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  z-index: +1;
+  top: 62%;
+  left: 5%;
+  cursor: pointer;
+}
+#c-a-right {
+  width: 50px;
+  border: 1px solid #43a047;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  z-index: +1;
+  top: 62%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.arrows-1 {
+  display: none;
+}
+.arrows-2 {
+  display: none;
+}
+
+#c-a-left-2 {
+  rotate: 180deg;
+  width: 50px;
+  border: 1px solid #43a047;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: +1;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#c-a-right-2 {
+  width: 50px;
+  border: 1px solid #43a047;
+  border-radius: 50%;
+  padding: 10px;
+  z-index: +1;
+  cursor: pointer;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.opacity {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #49b04e00, #49b04eb6);
+  position: absolute;
+  z-index: +1;
+}
+
+.t-c-center h1 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+.t-c-center p {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(81, 81, 81);
+}
+
+.tcb-deat {
+  display: flex;
+  align-items: center;
+}
+
+.tcb-deat * {
+  font-size: 18px;
+  color: rgb(81, 81, 81);
+  font-family: yekan, peyda;
+}
+
+.tcb-deat span {
+  margin-right: 3px;
+}
 
 /* content end */
 
@@ -612,6 +811,22 @@ body {
   }
   .class-box {
     width: 40%;
+  }
+  #c-a-right {
+    right: 10%;
+  }
+  #c-a-left {
+    left: 10%;
+  }
+  #c-a-right,
+  #c-a-left {
+    display: none;
+  }
+  .arrows-1 {
+    display: block;
+  }
+  .test-carts {
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -701,6 +916,27 @@ body {
   .container-top a {
     font-size: 20px;
   }
+  #c-a-right {
+    right: 2%;
+  }
+  #c-a-left {
+    left: 2%;
+  }
+  .arrows-1 {
+    display: none;
+  }
+  .arrows-2 {
+    display: block;
+  }
+  .test-carts {
+    width: 400px;
+  }
+  .arrows-2 #c-a-right-2 ,.arrows-2 #c-a-left-2{
+    width: 35px;
+  }
+  .test-carts {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -713,6 +949,9 @@ body {
   }
   .class-box {
     width: 45%;
+  }
+  .test-carts {
+    margin-top: 15px;
   }
 }
 
@@ -762,12 +1001,19 @@ body {
   .boxes-left {
     margin-top: 20px;
   }
-  .title-1{
+  .title-1 {
     width: 100%;
   }
-
+  .container {
+    width: 95%;
+  }
+  .class {
+    width: 95%;
+  }
+  .gallery {
+    width: 95%;
+  }
 }
-
 
 @media screen and (max-width: 425px) {
   .row-box {
@@ -779,6 +1025,9 @@ body {
   }
   .boxes-left {
     margin-top: 10px;
+  }
+  .cart-container {
+    overflow: hidden;
   }
 }
 
