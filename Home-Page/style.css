@@ -824,8 +824,6 @@ body {
   }
   .arrows-1 {
     display: block;
-  }
-  .test-carts {
     margin-top: 50px;
   }
 }
@@ -927,15 +925,13 @@ body {
   }
   .arrows-2 {
     display: block;
+    margin-top: 25px;
   }
   .test-carts {
     width: 400px;
   }
   .arrows-2 #c-a-right-2 ,.arrows-2 #c-a-left-2{
     width: 35px;
-  }
-  .test-carts {
-    margin-top: 30px;
   }
 }
 
