@@ -564,6 +564,9 @@ footer hr {
   .header-right {
     margin-right: 20px;
   }
+  #ft-p-2{
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 400px) {

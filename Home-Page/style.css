@@ -48,6 +48,8 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 110px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .ct-right-h1 h1,
@@ -66,8 +68,13 @@ body {
   text-align: center;
   font-size: 22px;
   width: 95%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
+
+#davani-school{
+  margin-top: 10px;
+}
+
 .ct-left {
   width: 40%;
   height: 100%;
@@ -83,7 +90,7 @@ body {
 }
 
 #arrow-1 {
-  width: 50px;
+  width: 60px;
   rotate: 90deg;
 }
 
@@ -97,7 +104,6 @@ body {
   border-radius: 10px;
   font-size: 20px;
   color: white;
-  margin-top: 50px;
   transition: 300ms ease-out;
 }
 
